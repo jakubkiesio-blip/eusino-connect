@@ -1,4 +1,13 @@
-import React from "react";
+import Hero from '../components/Hero'
+import About from '../components/About'
+import ContactForm from '../components/ContactForm'
+
 export default function Home() {
-  return <div>Welcome to EuSino Connect</div>;
+  return (
+    <>
+      <Hero />
+      <About />
+      <ContactForm />
+    </>
+  )
 }
